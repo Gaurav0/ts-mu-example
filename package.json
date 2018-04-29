@@ -17,6 +17,13 @@
     "test": "ember test"
   },
   "devDependencies": {
+    "@types/ember": "^2.8.22",
+    "@types/ember-data": "^2.14.16",
+    "@types/ember-qunit": "^3.0.2",
+    "@types/ember-test-helpers": "^0.7.1",
+    "@types/ember-testing-helpers": "^0.0.3",
+    "@types/qunit": "^2.5.0",
+    "@types/rsvp": "^4.0.1",
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
     "ember-cli": "github:ember-cli/ember-cli",
@@ -30,16 +37,19 @@
     "ember-cli-qunit": "^4.1.1",
     "ember-cli-shims": "^1.2.0",
     "ember-cli-sri": "^2.1.0",
+    "ember-cli-typescript": "^1.2.1",
     "ember-cli-uglify": "^2.0.0",
     "ember-data": "~3.1.1",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
     "ember-maybe-import-regenerator": "^0.1.6",
+    "ember-module-migrator": "^0.8.0",
     "ember-resolver": "^4.0.0",
-    "ember-source": "http://builds.emberjs.com/canary.tgz",
-    "ember-welcome-page": "^3.0.0",
+    "ember-source": "https://s3.amazonaws.com/builds.emberjs.com/canary/shas/637d242c187b82de4111bc2a4d566b377a3ee62e.tgz",
     "eslint-plugin-ember": "^5.0.0",
-    "loader.js": "^4.2.3"
+    "jscodeshift": "^0.5.0",
+    "loader.js": "^4.2.3",
+    "typescript": "^2.8.3"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
