@@ -14,7 +14,7 @@ cd ts-mu-experiment
 # Edit src/routes/applicaton.hbs to remove {{welcome-page}}
 yarn
 
-ember install ember-cli-typescript
+ember install ember-cli-typescript#1.3.0-beta.5
 ember g component some-input
 
 yarn add ember-modules-codemod --dev

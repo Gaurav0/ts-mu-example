@@ -4,7 +4,15 @@
     "allowJs": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
     "noImplicitThis": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
     "noEmitOnError": false,
     "noEmit": true,
     "inlineSourceMap": true,
@@ -13,18 +21,23 @@
     "module": "es6",
     "paths": {
       "ts-mu-experiment/tests/*": [
-        "tests/*"
+        "tests/*",
+        "src/*"
       ],
       "ts-mu-experiment/*": [
+        "src/*",
         "app/*"
       ],
       "*": [
         "types/*"
       ]
-    }
+    },
+    "skipLibCheck": true
   },
   "include": [
     "app",
+    "config",
+    "src",
     "tests",
     "types"
   ]
