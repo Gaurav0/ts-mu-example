@@ -13,14 +13,5 @@ module('Integration | Component | some-input', function(hooks) {
     await render(hbs`{{some-input}}`);
 
     assert.equal(this.element.textContent.trim(), '');
-
-    // Template block usage:
-    await render(hbs`
-      {{#some-input}}
-        template block text
-      {{/some-input}}
-    `);
-
-    assert.equal(this.element.textContent.trim(), 'template block text');
   });
 });

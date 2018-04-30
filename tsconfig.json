@@ -24,8 +24,10 @@
         "tests/*",
         "src/*"
       ],
-      "ts-mu-experiment/*": [
-        "src/*",
+      "ts-mu-experiment/src/*": [
+        "src/*"
+      ],
+      "ts-mu/experiment/*": [
         "app/*"
       ],
       "*": [
